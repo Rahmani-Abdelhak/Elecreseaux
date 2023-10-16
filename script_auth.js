@@ -4,7 +4,7 @@ function connectUser() {
     var connectedUser = email + ":" + password
     var users = ["test@test.com:test", "admin@admin.com:admin","user@email.com:1234"]
     if (users.includes(connectedUser)) {
-        window.location.replace("https://github.com/louhab/repos2")
+        window.location.replace("https://https://github.com/Rahmani-Abdelhak/Application_Gestion_Elecreseaux")
     } else {
         var alertDiv = document.querySelector('.alert-danger');
         alertDiv.style.display = 'block';
